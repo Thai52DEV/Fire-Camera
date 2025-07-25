@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* overflow: hidden; Ngăn cuộn */
+}
+
+
+
+.screen {
+  width: 320px;
+  height: 320px;
+  background: #b12d2d;
+  border-radius: 10px;
+  border: 0.5em solid black;
+  display: flex;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* hoặc object-fit: contain nếu bạn không muốn crop */
+  display: block;
+}
+
+
+.arrow-container {
+  position: relative;
+  bottom: 2em;
+  right: 2em;
+  display: grid;
+  width: 150px;
+  height: 150px;
+  grid-template-areas:
+    ".    up    ."
+    "left .   right"
+    ".   down  .";
+  place-items: center;
+  gap: 6px;
+  margin-top: 3em;
+  margin-left: 24em;
+}
+
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* Mũi tên lên */
+.arrow.up {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  grid-area: up;
+}
+
+/* Mũi tên xuống */
+.arrow.down {
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  grid-area: down;
+}
+
+/* Mũi tên trái */
+.arrow.left {
+  clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+  grid-area: left;
+}
+
+/* Mũi tên phải */
+.arrow.right {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+  grid-area: right;
+}
+
+/* Hover */
+.arrow:hover {
+  background-color: orange;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* Click */
+.arrow:active {
+  background-color: orange;
+  transform: scale(0.8) ;
+}
