@@ -7,13 +7,10 @@
 
 - Sử dụng chế độ AP mode của Gateway để gửi thông tin wifi đến các Node trong mạng lưới:
   + Đơn giản: Giao diện nhập thông tin wifi đơn giản cho người dùng hơn là mã code.
+    <img width="1299" height="583" alt="image" src="https://github.com/user-attachments/assets/8c93b8d6-adf8-46d9-831d-5670be164281" />
+
   + Tự động: Không cần setup thủ công cho từng Node.
   + Di động: Hệ thống có thể kết nối đến nhiều wifi khác nhau thay vì những wifi được thiết lập sẵn trong code.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/91d8dd5a-9606-4a31-b6a9-0a5f70a3fc78" alt="Hình minh họa" width="1005" height="468"/>
-  <p align="center"><em>*Giao diện nhập wifi*</em>
-
-**Giao diện nhập wifi**
 
 - Ứng dụng giao thức mạng websocket hai chiều cho bài toán
   + Websocket là giao thức mạng có thể tạo kết nối liên tục chỉ trong lần đầu tiền kết nối (handshake), không cần kết nối nhiều lại nhiều lần, giảm delay.
@@ -25,6 +22,8 @@
 - Servo có tốc độ quay 0.1s/60 độ, quay 30 độ với mỗi tín hiệu từ người dùng một cách nhanh chóng
 - Việc bổ sung khả năng xoay giúp camera bao quát khu vực rộng hơn, giảm điểm mù trong quan sát và tăng hiệu quả giám sát trong thời gian thực.
 ➔ Điều này đặc biệt quan trọng trong các môi trường có nguy cơ cháy nổ hoặc yêu cầu theo dõi chính xác vị trí mục tiêu.
+<img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/30acd95f-8dd5-4b12-a9e0-1d20ecb45197" />
+
 
 ## 4. AI nhận diện lửa
 
@@ -37,6 +36,8 @@
 - Hệ thống cung cấp một giao diện web thân thiện, cho phép người dùng truy cập và quan sát hình ảnh trực tiếp từ camera ở bất kỳ đâu có kết nối internet. 
 - Ngoài ra, giao diện còn hỗ trợ điều khiển từ xa đối với hướng quay của camera, nâng cao khả năng tương tác và điều hành. 
 - Thiết kế giao diện đảm bảo dễ sử dụng, trực quan và tối ưu cho cả máy tính và thiết bị di động.
+<img width="958" height="509" alt="image" src="https://github.com/user-attachments/assets/dfee7376-8991-4b3b-a1f1-e8706950aba7" />
+
 
 ## 6. Server
 
