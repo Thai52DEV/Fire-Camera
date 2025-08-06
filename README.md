@@ -12,7 +12,6 @@
 <img width="1005" height="468" alt="image" src="" />
 <p align="center">
   <img src="https://github.com/user-attachments/assets/91d8dd5a-9606-4a31-b6a9-0a5f70a3fc78" alt="Hình minh họa" width="1005" height="468"/>
-</p>
 <p align="center"><em>*Giao diện nhập wifi*</em></p>
 
 **Giao diện nhập wifi**
