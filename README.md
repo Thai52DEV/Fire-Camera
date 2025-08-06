@@ -9,9 +9,9 @@
   + Đơn giản: Giao diện nhập thông tin wifi đơn giản cho người dùng hơn là mã code.
   + Tự động: Không cần setup thủ công cho từng Node.
   + Di động: Hệ thống có thể kết nối đến nhiều wifi khác nhau thay vì những wifi được thiết lập sẵn trong code.
-<img width="1005" height="468" alt="image" src="" />
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/91d8dd5a-9606-4a31-b6a9-0a5f70a3fc78" alt="Hình minh họa" width="1005" height="468"/> <p align="center"><em>*Giao diện nhập wifi*</em></p>
+  <img src="https://github.com/user-attachments/assets/91d8dd5a-9606-4a31-b6a9-0a5f70a3fc78" alt="Hình minh họa" width="1005" height="468"/>
+  <p align="center"><em>*Giao diện nhập wifi*</em>
 
 **Giao diện nhập wifi**
 
